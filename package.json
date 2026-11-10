@@ -1,0 +1,14 @@
+{
+  "name": "placement-tracker-platform",
+  "version": "1.0.0",
+  "description": "Full-stack placement preparation tracking system",
+  "scripts": {
+    "install:all": "cd frontend && npm install",
+    "dev:backend": "cd backend-springboot && mvn spring-boot:run",
+    "dev:frontend": "cd frontend && npm start",
+    "build:backend": "cd backend-springboot && mvn clean package",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "author": "PlacementPro",
+  "license": "MIT"
+}
